@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".free"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/counterView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="reset"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@android:drawable/stat_notify_sync"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+
+            android:layout_width="165dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:background="#B7B7B7"
+            android:fontFamily="@font/amiri"
+            android:gravity="center"
+            android:onClick="counter1"
+            android:text="سبحان الله "
+            android:textSize="25dp" />
+        <TextView
+            android:id="@+id/disply_number"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="40dp"
+            style="@style/counter"
+            android:text="0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/counterView">
+
+        <Button
+            android:onClick="reset2"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@android:drawable/stat_notify_sync"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:gravity="center"
+            android:layout_width="165dp"
+            android:layout_weight="5"
+            android:layout_height="80dp"
+            android:background="#B7B7B7"
+            android:onClick="counter2"
+            android:textSize="25dp"
+            android:text="الحمد الله "
+            android:fontFamily="@font/amiri"/>
+        <TextView
+            android:textSize="40dp"
+            android:id="@+id/disply_number2"
+            android:layout_width="50dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            style="@style/counter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/counterView">
+
+        <Button
+            android:onClick="reset3"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@android:drawable/stat_notify_sync"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:gravity="center"
+            android:layout_width="165dp"
+            android:layout_weight="5"
+            android:layout_height="80dp"
+            android:background="#B7B7B7"
+            android:onClick="counter3"
+            android:textSize="25dp"
+            android:text="الله اكبر "
+            android:fontFamily="@font/amiri"/>
+        <TextView
+            android:textSize="40dp"
+            android:id="@+id/disply_number3"
+            android:layout_width="50dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            style="@style/counter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/counterView">
+
+        <Button
+            android:onClick="reset4"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@android:drawable/stat_notify_sync"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:gravity="center"
+            android:layout_width="165dp"
+            android:layout_height="80dp"
+            android:layout_weight="5"
+            android:background="#B7B7B7"
+            android:onClick="counter4"
+            android:text="لا اله الا الله"
+            android:fontFamily="@font/amiri"
+            android:textSize="25dp" />
+        <TextView
+            android:textSize="40dp"
+            android:id="@+id/disply_number24"
+            android:layout_width="50dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            style="@style/counter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/counterView">
+
+        <Button
+            android:onClick="reset5"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@android:drawable/stat_notify_sync"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:gravity="center"
+            android:layout_width="165dp"
+            android:layout_height="80dp"
+            android:layout_weight="5"
+            android:onClick="counter5"
+            android:background="#B7B7B7"
+            android:fontFamily="@font/amiri"
+            android:text="لا حول ولا قوه الا بالله"
+            android:textSize="25dp" />
+
+        <TextView
+            android:textSize="40dp"
+            android:id="@+id/disply_number25"
+            android:layout_width="50dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            style="@style/counter"/>
+
+    </LinearLayout>
+
+</LinearLayout>

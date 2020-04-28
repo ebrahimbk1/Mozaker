@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/layoutDoaa"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:background="@drawable/background3">
+
+        <TextView
+            style="@style/firstLine1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="دعاء لبس الثوب" />
+
+        <TextView
+            style="@style/remainingText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="دالحمد لله الذي كساني هذا (الثوب) ورزقنيه من غير حول مني ولا قوة." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/layoutDoaa">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="دعاء لبس الثوب الجديد"
+            style="@style/firstLine2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/remainingText2"
+            android:text="اللهم لك الحمد أنت كسوتنيه، أسألك من خيره" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layoutDoaa"
+        android:layout_width="match_parent"
+        android:layout_height="469dp"
+        android:background="@drawable/background2">
+
+        <TextView
+            style="@style/firstLine1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="دعاء الهم والحزن" />
+
+        <TextView
+            style="@style/remainingText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="اللهم إنّي عبدك ابن عبدك ابن أمتك ناصيتي بيدك ماضٍ في حكمك، عدلٌ فيّ قضاؤك، أسألك بكل اسم هو لك سمّيت به نفسك أو أنزلته في كتابك، أو علّمته أحداً من خلقك أو استأثرت به في علم الغيب عندك أن تجعل القرآن ربيع قلبي، ونور صدري وجلاء حزني وذهاب همي.. اللهم إني أعوذ بك من الهمّ والحزن، والعجز، والكسل، والبخل، والجبن، وضلع الدين وغلبة الرجال" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/layoutDoaa">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="دعاء قضاء الدين"
+            style="@style/firstLine2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/remainingText2"
+            android:text="اللهم اكفنى بحلالك عن حرامك وأغننى بفضلك عمن سواك" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background3"
+        style="@style/layoutDoaa">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="دعاء الريح"
+            style="@style/firstLine1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/remainingText1"
+            android:text="اللهم إنى أسألك خيرها، وخير ما فيها، وخير ما أرسلت به، وأعوذ بك من شرها، وشرّ ما فيها وشرّ ما أرسلت به" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/layoutDoaa">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ما يقال في المجلس"
+            style="@style/firstLine2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/remainingText2"
+            android:text="ربّ اغفر لي وتب عليّ إنك أنت التواب الغفور"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background3"
+        android:gravity="center"
+        style="@style/layoutDoaa">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="كفارة المجلس"
+            style="@style/firstLine1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/remainingText1"
+            android:text="سبحانك اللهم وبحمدك، أشهد أن لا إله إلا أنت أستغفرك وأتوب إليك" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/layoutDoaa">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الدعاء إذا أحسست بوجع في جسدك"
+            style="@style/firstLine2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/remainingText2"
+            android:text="ضع يدك على الذي تألَّم من جسدك وقل: بسم الله، ثلاثاً، وقل سبع مرات: أعوذُ بالله وقُدْرَتِهِ من شَرِّ مَا أَجِدُ واُحَاذِرُ" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/background3"
+        style="@style/layoutDoaa">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="دعاء من أصيب بمصيبة"
+            style="@style/firstLine1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/remainingText1"
+            android:text="إنا لله وإنا إليه راجعون اللهم أجرني في مصيبتي واخلف لي خيرا منها" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/layoutDoaa">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="دعاء من رأى مبتلىً"
+            style="@style/firstLine2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/remainingText2"
+            android:text="الحمد لله الذي عافاني مما ابتلي به وفضلني على كثير ممن خلق تفضيلاً" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layoutDoaa"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:background="@drawable/background3"
+        android:gravity="center">
+
+        <TextView
+            style="@style/firstLine1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="دعاء الرعد" />
+
+        <TextView
+            style="@style/remainingText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="سبحان الله الذي يسبح الرعد بحمده والملائكة من خيفته" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

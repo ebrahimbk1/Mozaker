@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".master"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button"
+            android:backgroundTint="#B7B7B7"
+            android:fontFamily="@font/amiri"
+            android:padding="15dp"
+
+            android:text="ايقاف " />
+
+        <Button
+            android:id="@+id/play"
+            style="@style/Widget.AppCompat.Button"
+            android:backgroundTint="#B7B7B7"
+            android:fontFamily="@font/amiri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="تشغيل "/>
+
+        <Button
+            android:id="@+id/pause"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B7B7B7"
+            android:bottomLeftRadius="5dp"
+            android:bottomRightRadius="5dp"
+            android:fontFamily="@font/amiri"
+            android:padding="15dp"
+            android:text="ايقاف مؤقت"
+            android:topLeftRadius="5dp"
+            android:topRightRadius="5dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/amiri"
+        android:gravity="center"
+        android:text="اللهم انت ربى ، لا إله إلا أنت ، خلقتنى و أنا عبدك ، و انا على عهدك و وعدك ما أستطعت ، أعوذ بك من شر ما صنعت ، و أبوء لك بنعمتك على ، و أبوء بذنبي ، فأغفر لى فإنه لا يغفر الذنوب الا انت ، يا حي يا قيوم ، برحمتك أستغيث ، أصلح لنا شأننا كله ، ولا تكلنا إلى أنفسنا ، طرفة عين أو أقل من ذلك ، كلمتنا خفيفتان على اللسان ، ثقيلتان فى الميزان ، حبيبتان إلى الرحمٰن ، سبحان الله و بحمده ، سبحان الله العظيم."
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
